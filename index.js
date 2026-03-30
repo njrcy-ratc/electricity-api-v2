@@ -77,4 +77,3 @@ if (process.env.NODE_ENV !== 'test') {
 ${PORT}`));
 }
 module.exports = app; // Export for testing 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`)); 
